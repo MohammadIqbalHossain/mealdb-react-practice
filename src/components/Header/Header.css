@@ -1,0 +1,27 @@
+.contianer{
+    display: flex;
+    height: 60px;
+    width: 100%;
+    background-color: orange;
+    justify-content: space-around;
+    align-items: center;
+     
+}
+
+.contianer > a{
+    text-decoration: none;
+    font-size: 30px;
+    font-style: italic;
+    color: black;
+
+}
+
+.info-container a {
+  font-size: 20px;
+  text-decoration: none;
+  margin-left: 10px;
+  color: black;
+}
+.info-container a:hover{
+    color: white;
+}
